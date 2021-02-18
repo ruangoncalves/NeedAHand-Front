@@ -1,0 +1,146 @@
+.home-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.margemSup {
+    width: 100%;
+    max-width: 1120px;
+    height: 120px;    
+    display: flex;
+}
+
+.home-container .margemSup .Entrar a {
+    background: transparent;
+    border: solid;
+    width: 100px;
+    margin-left: 650px;
+    margin-top: 50px;  
+}
+
+.home-container .margemSup .Registrar a {
+    background: transparent;
+    border: solid;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 50px;  
+}
+
+.categorias .logo {
+    margin-top: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.categorias {
+    width: 100%;
+    max-width: 1120px;
+    height: 100px;
+}
+
+.linha1 {
+    background: #00FF8C;
+    margin-top: 5px;
+    height: 2px;
+}
+
+.dropdown1,.dropdown2,.dropdown3,.dropdown4,.dropdown5,.dropdown6 {
+    margin-top: 5px;
+    height: 80px;
+    width: 80px;
+    margin-left: 91px;
+
+    position: relative;
+    display: inline-block;
+}
+
+.a,.cm,.cp,.e,.sg,.t {
+    height: 80px;
+    width: 80px;
+}
+
+.dropdown-content {
+    border-radius: 8px;
+    display: none;
+    position: absolute;
+    background-color: #ababb3;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 8px;
+}
+  
+.dropdown1:hover .dropdown-content {display: block;}
+.dropdown2:hover .dropdown-content {display: block;}
+.dropdown3:hover .dropdown-content {display: block;}
+.dropdown4:hover .dropdown-content {display: block;}
+.dropdown5:hover .dropdown-content {display: block;}
+.dropdown6:hover .dropdown-content {display: block;}
+
+.linha2 {
+    background: #00FF8C;
+    margin-top: 0px;
+    height: 2px;
+}
+
+.home-container .titulo{
+    width: 100%;
+    max-width: 1120px;
+    height: 100px;
+    display: flex;
+}
+
+.home-container .titulo a {
+    background: #00FF8C;
+    border: solid;
+    width: 100px;
+    margin-left: 275px;
+    margin-top: 15px; 
+}
+
+.home-container .titulo h1{
+    color: #00FF8C;
+    font-size: 40px;
+    width: 170px;
+    margin-left: 475px;
+    margin-top: 15px;   
+}
+
+.home-container ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.home-container ul li{
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.home-container ul li button{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+}
+
+.home-container ul li button:hover{
+    opacity:0.8;
+}
+

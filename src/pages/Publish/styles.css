@@ -1,0 +1,56 @@
+.publish-container {
+    width: 100%;
+    max-width: 1120px;
+    height: center;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.publish-container form {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 0px;
+}
+
+.publish-container form {
+    margin-top: 50px;
+}
+
+.publish-container form h1 {
+    color: #00FF8C;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.publish-container form textarea{
+    width: 100%;
+    margin-top: 20px;
+    min-height: 140px;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+}
+
+.publish-container form a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.publish-container form a svg {
+    margin-right: 8px;
+}
+
+.publish-container form a:hover {
+    opacity: 0.8;
+}
