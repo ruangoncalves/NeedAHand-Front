@@ -13,16 +13,18 @@
 }
 
 .home-container .margemSup .Entrar a {
-    background: transparent;
+    background: #00FF8C;
     border: solid;
+    border-color: #fff;
     width: 100px;
     margin-left: 650px;
     margin-top: 50px;  
 }
 
 .home-container .margemSup .Registrar a {
-    background: transparent;
+    background: #00FF8C;
     border: solid;
+    border-color: #fff;
     width: 100px;
     margin-left: 50px;
     margin-top: 50px;  
@@ -99,13 +101,15 @@
 .home-container .titulo{
     width: 100%;
     max-width: 1120px;
+    margin-top: 10px;
     height: 100px;
     display: flex;
 }
 
 .home-container .titulo a {
-    background: #00FF8C;
+    background: #e7dc3a;
     border: solid;
+    border-color: #fff;
     width: 100px;
     margin-left: 275px;
     margin-top: 15px; 
@@ -127,7 +131,7 @@
 }
 
 .home-container ul li{
-    background: #fff;
+    background: rgba(255, 255, 255, 0.747);
     padding: 24px;
     border-radius: 8px;
     position: relative;

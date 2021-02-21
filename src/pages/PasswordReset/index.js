@@ -7,7 +7,7 @@ export default function PasswordReset(){
     return(   
         <div className="pasReset-container">
             <form>
-                <h1>Digite seu email</h1>
+                <h1>Recupere sua senha</h1>
                 <input placeholder="Seu email" />
                 <button className="button" type="submit">Enviar</button>
                 <Link to="/">

@@ -41,7 +41,7 @@ export default function Register() {
     return(
         <div className="register-container">
             <form onSubmit={handleRegister}>
-                <h1>Faça seu registro</h1>
+                <h1>Faça seu cadastro</h1>
                 <input placeholder="Nome completo"
                     value={nome}
                     onChange={e => setNome(e.target.value)} 
@@ -66,12 +66,14 @@ export default function Register() {
                     value={senha}
                     onChange={e => setSenha(e.target.value)} 
                 />
-                <span className="lnr lnr-eye"></span>    
+                {/* <span className="lnr lnr-eye"></span>     */}
                 <button className="button" type="submit">Registrar</button>
                 <Link to="/">
                     <FiArrowLeft size={16} color="#E02041" />
                     Retornar a pagina inicial
                 </Link>
+                <br></br>
+                <br></br>
             </form> 
         </div>        
     );

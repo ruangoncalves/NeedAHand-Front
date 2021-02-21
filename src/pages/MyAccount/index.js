@@ -9,11 +9,11 @@ export default function MyAccount() {
     return(
         <div className="myaccount-container">
             <form className="InfoGeral">
-                <p>Nome completo</p>
-                <p>Telefone</p>
-                <p>Cpf</p>
-                <p>Data de aniversário</p>
-                <p>Email</p>   
+                <strong>Nome</strong>
+                <strong>Telefone</strong>
+                <strong>Cpf</strong>
+                <strong>Data de aniversário</strong>
+                <strong>Email</strong>   
                 
                 <Link to="/">
                     <FiArrowLeft size={16} color="#E02041" />
