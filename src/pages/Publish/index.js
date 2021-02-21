@@ -14,7 +14,7 @@ export default function Publish() {
                 <input placeholder="País" />
                 <input placeholder="UF" />
                 <input placeholder="Cidade" />
-                <input placeholder="Fornecedor" />
+                <input placeholder="Profissional" />
                 <select id="Categoria">
                     <option>Aulas</option>
                     <option>Manutenções</option>
@@ -30,7 +30,7 @@ export default function Publish() {
                 <button className="button" type="submit">Publicar</button>
                 <Link to="/">
                         <FiArrowLeft size={16} color="#E02041" />
-                        Retornar a pagina inicial
+                        Retornar à página inicial
                 </Link>
                 <br></br>
                 <br></br>

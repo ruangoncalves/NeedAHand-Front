@@ -9,15 +9,15 @@ export default function MyAccount() {
     return(
         <div className="myaccount-container">
             <form className="InfoGeral">
-                <strong>Nome</strong>
+                <strong>Nome Completo</strong>
                 <strong>Telefone</strong>
-                <strong>Cpf</strong>
-                <strong>Data de aniversário</strong>
-                <strong>Email</strong>   
+                <strong>CPF</strong>
+                <strong>Data de nascimento</strong>
+                <strong>E-mail</strong>   
                 
                 <Link to="/">
                     <FiArrowLeft size={16} color="#E02041" />
-                    Retornar a pagina inicial
+                    Retornar à página inicial
                 </Link>
             </form> 
         </div>        

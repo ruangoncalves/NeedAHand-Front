@@ -8,11 +8,11 @@ export default function PasswordReset(){
         <div className="pasReset-container">
             <form>
                 <h1>Recupere sua senha</h1>
-                <input placeholder="Seu email" />
+                <input placeholder="Seu e-mail" />
                 <button className="button" type="submit">Enviar</button>
                 <Link to="/">
                     <FiArrowLeft size={16} color="#E02041" />
-                    Retornar a pagina inicial
+                    Retornar à página inicial
                 </Link>
             </form>            
         </div>       

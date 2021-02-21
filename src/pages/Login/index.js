@@ -8,14 +8,14 @@ export default function Login(){
     return(   
         <div className="login-container">
                 <form>
-                    <h1>Faça seu login</h1>
-                    <input placeholder="Sua ID" />
+                    <h1>Fazer login</h1>
+                    <input placeholder="Seu ID" />
                     <input type="password" name="password" placeholder="Digite sua senha" />
                     <span class="lnr lnr-eye"></span>
                     <button className="button" type="submit">Entrar</button>
                     <Link to="/registrar">
                         <FiLogIn size={16} color="#E02041" />
-                        Não tenho cadastro
+                        Não sou cadastrado
                     </Link>
                     <Link to="/PasswordReset">
                         <FiLogIn size={16} color="#E02041" />
@@ -23,7 +23,7 @@ export default function Login(){
                     </Link>
                     <Link to="/">
                         <FiArrowLeft size={16} color="#E02041" />
-                        Retornar a pagina inicial
+                        Retornar à página inicial
                 </Link>
                 </form>           
         </div>

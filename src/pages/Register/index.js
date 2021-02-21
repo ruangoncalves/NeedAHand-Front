@@ -31,10 +31,10 @@ export default function Register() {
         try {
             const response = await api.post('Users', dados);
 
-            alert(`Cadastro realizado, seu ID é: ${response.dados.id}`);
+            alert(`Cadastro realizado com sucesso, seu ID é: ${response.dados.id}`);
         }
         catch (err){
-            alert(`Erro no cadastro. ${err}`);
+            alert(`Não foi possível efetuar o cadastro. ${err}`);
         }
     }
 
@@ -50,11 +50,11 @@ export default function Register() {
                     value={telefone}
                     onChange={e => setTelefone(e.target.value)} 
                 />
-                <InputMask mask="999.999.999-99" placeholder="Cpf"
+                <InputMask mask="999.999.999-99" placeholder="CPF"
                     value={cpf}
                     onChange={e => setCpf(e.target.value)} 
                 />
-                <InputMask mask="99/99/9999" placeholder="Data de aniversário"
+                <InputMask mask="99/99/9999" placeholder="Data de nascimento"
                     value={dataNascimento}
                     onChange={e => setDataNascimento(e.target.value)} 
                 />
@@ -70,7 +70,7 @@ export default function Register() {
                 <button className="button" type="submit">Registrar</button>
                 <Link to="/">
                     <FiArrowLeft size={16} color="#E02041" />
-                    Retornar a pagina inicial
+                    Retornar à página inicial
                 </Link>
                 <br></br>
                 <br></br>

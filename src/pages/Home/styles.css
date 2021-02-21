@@ -15,7 +15,7 @@
 .home-container .margemSup .Entrar a {
     background: #00FF8C;
     border: solid;
-    border-color: #fff;
+    border-color: #00FF8C;
     width: 100px;
     margin-left: 650px;
     margin-top: 50px;  
@@ -24,8 +24,8 @@
 .home-container .margemSup .Registrar a {
     background: #00FF8C;
     border: solid;
-    border-color: #fff;
-    width: 100px;
+    border-color: #00FF8C;
+    width: 135px;
     margin-left: 50px;
     margin-top: 50px;  
 }
@@ -67,7 +67,7 @@
     border-radius: 8px;
     display: none;
     position: absolute;
-    background-color: #ababb3;
+    background-color: #8ffcc5;
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -81,7 +81,7 @@
 }
   
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #EFB404;
     border-radius: 8px;
 }
   
@@ -109,7 +109,7 @@
 .home-container .titulo a {
     background: #e7dc3a;
     border: solid;
-    border-color: #fff;
+    border-color: #e7dc3a;
     width: 100px;
     margin-left: 275px;
     margin-top: 15px; 
@@ -131,7 +131,7 @@
 }
 
 .home-container ul li{
-    background: rgba(255, 255, 255, 0.747);
+    background: #8ffcc5;
     padding: 24px;
     border-radius: 8px;
     position: relative;
