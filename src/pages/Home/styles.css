@@ -1,15 +1,24 @@
 .home-container {
     width: 100%;
-    max-width: 1120px;
+    max-width: 1500px;
     height: 100vh;
     margin: 0 auto;
 }
 
 .margemSup {
     width: 100%;
-    max-width: 1120px;
+    max-width: 1500px;
     height: 120px;    
     display: flex;
+}
+
+.home-container .margemSup .Publicar a {
+    background: #EFB404;
+    border: solid;
+    border-color: #EFB404;
+    width: 135px;
+    margin-left: 850px;
+    margin-top: 50px;  
 }
 
 .home-container .margemSup .Entrar a {
@@ -17,7 +26,7 @@
     border: solid;
     border-color: #00FF8C;
     width: 100px;
-    margin-left: 650px;
+    margin-left: 50px;
     margin-top: 50px;  
 }
 
@@ -38,7 +47,7 @@
 
 .categorias {
     width: 100%;
-    max-width: 1120px;
+    max-width: 1500px;
     height: 100px;
 }
 
@@ -52,7 +61,7 @@
     margin-top: 5px;
     height: 80px;
     width: 80px;
-    margin-left: 91px;
+    margin-left: 139px;
 
     position: relative;
     display: inline-block;
@@ -68,7 +77,7 @@
     display: none;
     position: absolute;
     background-color: #8ffcc5;
-    min-width: 120px;
+    width: 130px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -106,15 +115,6 @@
     display: flex;
 }
 
-.home-container .titulo a {
-    background: #e7dc3a;
-    border: solid;
-    border-color: #e7dc3a;
-    width: 100px;
-    margin-left: 275px;
-    margin-top: 15px; 
-}
-
 .home-container .titulo h1{
     color: #00FF8C;
     font-size: 40px;
@@ -133,8 +133,11 @@
 .home-container ul li{
     background: #8ffcc5;
     padding: 24px;
+    width: 400px;
     border-radius: 8px;
     position: relative;
+    left: 35px;
+    top: 35px;
 }
 
 .home-container ul li button{

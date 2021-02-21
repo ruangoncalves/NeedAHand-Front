@@ -41,7 +41,7 @@ export default function Register() {
     return(
         <div className="register-container">
             <form onSubmit={handleRegister}>
-                <h1>Faça seu cadastro</h1>
+                <h1>Cadastre-se</h1>
                 <input placeholder="Nome completo"
                     value={nome}
                     onChange={e => setNome(e.target.value)} 
