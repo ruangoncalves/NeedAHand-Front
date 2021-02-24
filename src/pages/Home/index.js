@@ -31,7 +31,7 @@ export default function Home(){
             <section className="categorias">
                 <div className="linha1"></div>
                 <div className="dropdown1">
-                    {/* <strong>Aulas</strong> */}
+                    <strong className="label1">Aulas</strong>
                     <img className="a" src={aulasImg} />
                     <div className="dropdown-content">
                         <b>
@@ -45,7 +45,7 @@ export default function Home(){
                     </div>
                 </div>
                 <div className="dropdown2">
-                    {/* <strong>Manutencões</strong> */}
+                    <strong className="label2">Consertos</strong>
                     <img className="cm" src={consertosManutencoesImg}/>
                     <div className="dropdown-content">
                         <b>
@@ -64,7 +64,8 @@ export default function Home(){
                     </div>
                 </div>
                 <div className="dropdown3">
-                    {/* <strong>Cuidados pessoais</strong> */}
+                    <strong className="label3">Cuidados</strong><br/>
+                    <strong className="label31">Pessoais</strong>
                     <img className="cp" src={cuidadosPessoaisImg} />
                     <div className="dropdown-content">
                         <b>
@@ -81,7 +82,7 @@ export default function Home(){
                     </div>
                 </div>
                 <div className="dropdown4">
-                    {/* <strong>Eventos</strong> */}
+                    <strong className="label4">Eventos</strong>
                     <img className="e" src={eventosImg} />
                     <div className="dropdown-content">
                         <b>
@@ -102,7 +103,8 @@ export default function Home(){
                     </div>
                 </div>
                 <div className="dropdown5">
-                    {/* <strong>Serviços gerais</strong> */}
+                    <strong className="label5">Serviços</strong><br/>
+                    <strong className="label51">Gerais</strong>
                     <img className="sg" src={servicosGeraisImg} />
                     <div className="dropdown-content">
                         <b>
@@ -116,7 +118,7 @@ export default function Home(){
                     </div>
                 </div>
                 <div className="dropdown6">
-                    {/*<strong>Transportes</strong>*/}
+                    <strong className="label6">Transportes</strong>
                     <img className="t" src={transportesImg} />
                     <div className="dropdown-content">
                         <b>
@@ -134,48 +136,38 @@ export default function Home(){
                 <li>
                     <b>Eletricista</b><br></br><br></br>
                     <img className="eletricistaImagem" src={eletricistaImg} 
-                    width="350"
+                    width="300"
                     height="200"/>
                     <br></br><br></br>
                     <strong>Descrição:</strong><p>Serviços de instalação, manutenção, passagem de cabeamento, residencial e comercial.<br></br>
                     Possuo formação técnica e mais de 10 anos atuando na área.</p>
                     <strong>Profissional:</strong><p>Pedro de Souza</p>
                     <strong>Localidade:</strong><p>Indaial - SC</p>
-
+                    <strong>Contato:</strong><p>(47) 99987-5532</p> 
                 </li>
                 <li>
                     <b>Jardineiro</b><br></br><br></br>
                     <img className="jardineiroImagem" src={jardineiroImg} 
-                    width="350"
+                    width="300"
                     height="200"/>
                     <br></br><br></br>
                     <strong>Descrição:</strong><p>Limpeza de jardins.</p>
                     <strong>Profissional:</strong><p>Samuel Oliveira da Costa</p>
                     <strong>Localidade:</strong><p>Blumenau - SC</p>
-
+                    <strong>Contato:</strong><p>(47) 98933-5689</p> 
                 </li>
                 <li>
                     <b>Barman</b><br></br><br></br>
                     <img className="barmanImagem" src={barmanImg} 
-                    width="350"
+                    width="300"
                     height="200"/>
                     <br></br><br></br>
                     <strong>Descrição:</strong><p>Barman para festas, aniversários, eventos corporativos e casamentos.</p>
                     <strong>Profissional:</strong><p>Joel Silveira</p>
                     <strong>Localidade:</strong><p>Florianópolis - SC</p>
-
-                    {/* <button type="button">
-                        <FiTrash size={20} color="#E02041" />
-                    </button> */}
+                    <strong>Contato:</strong><p>(47) 98877-5632</p>                   
                 </li>
-                <li>
-                    <strong>TITULO</strong>
-                    <p>descrição</p>
-
-                    {/* <button type="button">
-                        <FiTrash size={20} color="#E02041" />
-                    </button> */}
-                </li>
+                
             </ul>
             
         </div>           

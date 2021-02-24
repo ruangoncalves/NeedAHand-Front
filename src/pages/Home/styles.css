@@ -1,13 +1,13 @@
 .home-container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1120px;
     height: 100vh;
     margin: 0 auto;
 }
 
 .margemSup {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1120px;
     height: 120px;    
     display: flex;
 }
@@ -17,7 +17,7 @@
     border: solid;
     border-color: #EFB404;
     width: 135px;
-    margin-left: 850px;
+    margin-left: 480px;
     margin-top: 50px;  
 }
 
@@ -61,7 +61,7 @@
     margin-top: 5px;
     height: 80px;
     width: 80px;
-    margin-left: 139px;
+    margin-left: 91px;
 
     position: relative;
     display: inline-block;
@@ -107,14 +107,6 @@
     height: 2px;
 }
 
-.home-container .titulo{
-    width: 100%;
-    max-width: 1120px;
-    margin-top: 10px;
-    height: 100px;
-    display: flex;
-}
-
 .home-container .titulo h1{
     color: #00FF8C;
     font-size: 40px;
@@ -133,10 +125,10 @@
 .home-container ul li{
     background: #8ffcc5;
     padding: 24px;
-    width: 400px;
+    width: 350px;
     border-radius: 8px;
     position: relative;
-    left: 35px;
+    left: 5px;
     top: 35px;
 }
 
@@ -149,5 +141,45 @@
 
 .home-container ul li button:hover{
     opacity:0.8;
+}
+
+.label1{
+    color: #00FF8C;
+    margin-left: 22px;   
+}
+
+.label2{
+    color: #00FF8C;
+    margin-left: 7px;   
+}
+
+.label3{
+    color: #00FF8C;
+    margin-left: 10px;   
+}
+
+.label31{
+    color: #00FF8C;
+    margin-left: 11px;   
+}
+
+.label4{
+    color: #00FF8C;
+    margin-left: 15px;   
+}
+
+.label5{
+    color: #00FF8C;
+    margin-left: 12px;   
+}
+
+.label51{
+    color: #00FF8C;
+    margin-left: 20px;   
+}
+
+.label6{
+    color: #00FF8C;
+    margin-left: 1px;   
 }
 

@@ -11,10 +11,11 @@ export default function Publish() {
                 <h1>Divulgue seu trabalho</h1>
                 <input placeholder="Título" />
                 <textarea placeholder="Descrição"></textarea>
-                <input placeholder="País" />
+                {/* <input placeholder="País" /> */}
                 <input placeholder="UF" />
                 <input placeholder="Cidade" />
                 <input placeholder="Profissional" />
+                <InputMask mask="(99) 99999-9999" placeholder="Telefone"/>
                 <select id="Categoria">
                     <option>Aulas</option>
                     <option>Manutenções</option>
@@ -23,9 +24,9 @@ export default function Publish() {
                     <option>Cuidados pessoais</option>
                     <option>Eventos</option>
                 </select>
-                <select id="Sub categoria">
+                {/* <select id="Sub categoria">
                     <option>SubCategoria</option>
-                </select>
+                </select> */}
 
                 <button className="button" type="submit">Publicar</button>
                 <Link to="/">
